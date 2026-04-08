@@ -25,7 +25,7 @@ Create personalized trip plans by searching airline/hotel info, interacting with
 6. Booking platform recommendations provided (not direct URLs)
 7. progress.txt shows all tasks completed
 
-**Test Passed:** false
+**Test Passed:** true
 
 ### Task 2: User Feedback & Revision Loop
 **Goal:** Handle user feedback and revise the plan
@@ -42,7 +42,7 @@ Create personalized trip plans by searching airline/hotel info, interacting with
 4. Revised trip_draft.md includes additional food/restaurant options
 5. Cost summary updated to reflect changes
 
-**Test Passed:** false
+**Test Passed:** true
 
 ### Task 3: Preferences Accumulation
 **Goal:** Save user feedback to preferences.md for future sessions
@@ -56,7 +56,7 @@ Create personalized trip plans by searching airline/hotel info, interacting with
 2. Preferences structured under appropriate categories (Flight/Hotel/Activity/Budget)
 3. Past feedback section contains session-specific notes
 
-**Test Passed:** false
+**Test Passed:** true
 
 ### Task 4: Date Change Revision (Re-search Required)
 **Goal:** Handle major revision requiring flight/hotel re-search
@@ -73,7 +73,7 @@ Create personalized trip plans by searching airline/hotel info, interacting with
 4. trip_draft.md contains NEW hotel options for revised dates
 5. Itinerary adjusted for new date range
 
-**Test Passed:** false
+**Test Passed:** true
 
 ### Task 5: Final Approval & Output
 **Goal:** Finalize approved plan to trip_final.md
@@ -92,4 +92,4 @@ Create personalized trip plans by searching airline/hotel info, interacting with
 7. progress.txt marked as finalized
 8. requirements.txt marked with approval timestamp
 
-**Test Passed:** false
+**Test Passed:** true
