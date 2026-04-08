@@ -3,26 +3,27 @@ name: trip-planner
 description: Create personalized trip plans by searching airline/hotel info, interacting with users for preferences, producing approved itineraries with costs.
 ---
 
-Shared files: preferences.md (accumulated user preferences/feedbacks), trip_draft.md (draft plan for review), trip_final.md (approved final plan), progress.txt (task/review/revision log).
+Shared files: preferences.md (accumulated user preferences/feedbacks), trip_draft.md (draft plan for review), trip_final.md (approved final plan), progress.txt (task/review/revision log), requirements.txt (session CLI prompts & responses).
 
 Templates (initialize from templates/ on first run)
 templates/preferences.md → preferences.md
 templates/trip_draft.md → trip_draft.md
 templates/trip_final.md → trip_final.md
 templates/progress.txt → progress.txt
+templates/requirements.txt → requirements.txt (re-initialized every session)
 
 Lead Agent (trip coordinator)
-1. Init: copy templates to working dir if not exist. Initialize progress.txt.
-2. Collect trip requirements via CLI prompts: departure city, destination, travel dates, group size, budget range, interests/activities.
+1. Init: copy templates to working dir if not exist. Initialize progress.txt and requirements.txt (fresh every session).
+2. Collect trip requirements via CLI prompts. Log each prompt/response to requirements.txt.
 3. Read preferences.md for accumulated preferences from past sessions.
 4. Update progress.txt: mark requirements collected.
 5. Spawn Search Agent for flights. Wait. Mark done in progress.txt.
 6. Spawn Search Agent for hotels. Wait. Mark done in progress.txt.
 7. Spawn Search Agent for activities/attractions. Wait. Mark done in progress.txt.
 8. Spawn Planning Agent to create draft itinerary. Wait. Mark done in progress.txt.
-9. Present trip_draft.md to user; collect feedback. Log in progress.txt.
+9. Present trip_draft.md to user; collect feedback. Log prompt/response to requirements.txt, summary to progress.txt.
 10. If revisions needed: update requirements, increment loop count in progress.txt, loop back to step 8.
-11. If approved: finalize trip_final.md, append feedback to preferences.md, mark finalized in progress.txt. Stop.
+11. If approved: finalize trip_final.md, append feedback to preferences.md, mark finalized in progress.txt and requirements.txt. Stop.
 
 Sub-Agents (spawned via Task tool, general/mode: subagent)
 
