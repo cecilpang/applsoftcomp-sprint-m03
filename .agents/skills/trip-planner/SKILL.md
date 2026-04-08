@@ -1,61 +1,60 @@
 ---
 name: trip-planner
-description: Create personalized trip plans by searching airline/hotel information, interacting with users for preferences, and producing approved itineraries with costs.
+description: Create personalized trip plans by searching airline/hotel info, interacting with users for preferences, producing approved itineraries with costs.
 ---
 
-Shared files: `preferences.md` (accumulated user preferences/feedbacks), `trip_draft.md` (draft plan for review), `trip_final.md` (approved final plan).
+Shared files: preferences.md (accumulated user preferences/feedbacks), trip_draft.md (draft plan for review), trip_final.md (approved final plan).
 
-## Templates (initialize from `templates/` on first run)
-- `templates/preferences.md` → `preferences.md`
-- `templates/trip_draft.md` → `trip_draft.md`
-- `templates/trip_final.md` → `trip_final.md`
+Templates (initialize from templates/ on first run)
+templates/preferences.md → preferences.md
+templates/trip_draft.md → trip_draft.md
+templates/trip_final.md → trip_final.md
 
-## Lead Agent (trip coordinator)
-
-1. Collect trip requirements from user via CLI prompts: departure city, destination, travel dates, group size, budget range, interests/activities.
-2. Read `preferences.md` for accumulated preferences from past sessions.
+Lead Agent (trip coordinator)
+1. Collect trip requirements via CLI prompts: departure city, destination, travel dates, group size, budget range, interests/activities.
+2. Read preferences.md for accumulated preferences from past sessions.
 3. Spawn Search Agent for flights. Wait.
 4. Spawn Search Agent for hotels. Wait.
 5. Spawn Search Agent for activities/attractions. Wait.
 6. Spawn Planning Agent to create draft itinerary. Wait.
-7. Present `trip_draft.md` to user; collect feedback.
+7. Present trip_draft.md to user; collect feedback.
 8. If revisions needed: update requirements, loop back to step 6.
-9. If approved: finalize `trip_final.md`, append feedback to `preferences.md`. Then stop.
+9. If approved: finalize trip_final.md, append feedback to preferences.md. Stop.
 
-## Sub-Agents (spawned via Task tool, `general`/`mode: subagent`)
+Sub-Agents (spawned via Task tool, general/mode: subagent)
 
-**Flight Search** (uses webfetch):
+Flight Search (uses webfetch):
 1. Search airline websites/aggregators for flights matching dates, route, group size.
 2. Extract: airline, flight numbers, times, duration, price per person, total cost.
 3. Find 3 options at different price points (budget/mid-range/premium).
-4. Append results to `trip_draft.md` under `## Flights`. Append only; do not read.
+4. Append results to trip_draft.md under ## Flights. Append only; do not read.
 
-**Hotel Search** (uses webfetch):
+Hotel Search (uses webfetch):
 1. Search hotel booking sites for accommodations matching dates, destination, group size.
 2. Extract: hotel name, location, rating, amenities, price per night, total cost.
 3. Find 3 options at different price points (budget/mid-range/premium).
-4. Append results to `trip_draft.md` under `## Hotels`. Append only; do not read.
+4. Append results to trip_draft.md under ## Hotels. Append only; do not read.
 
-**Activities Search** (uses webfetch):
+Activities Search (uses webfetch):
 1. Search for attractions, tours, restaurants at destination.
 2. Extract: name, description, location, cost, duration, booking platform.
 3. Curate options matching user interests and budget.
-4. Append results to `trip_draft.md` under `## Activities`. Append only; do not read.
+4. Append results to trip_draft.md under ## Activities. Append only; do not read.
 
-**Planning** (creates draft itinerary):
-1. Read `trip_draft.md` for all search results.
-2. Read `preferences.md` for user preferences.
+Planning (creates draft itinerary):
+1. Read trip_draft.md for all search results.
+2. Read preferences.md for user preferences.
 3. Create day-by-day itinerary with: activities, timing, costs, booking platform recommendations.
 4. Include total estimated cost breakdown (flights + hotels + activities + buffer).
-5. Overwrite `trip_draft.md` with complete draft: Itinerary, Options, Cost Summary.
+5. Overwrite trip_draft.md with complete draft: Itinerary, Options, Cost Summary.
 
-**Finalization** (after user approval):
-1. Read `trip_draft.md` and user feedback.
+Finalization (after user approval):
+1. Read trip_draft.md and user feedback.
 2. Apply revisions if any.
-3. Overwrite `trip_final.md` with approved plan.
-4. Append new preferences/feedback to `preferences.md`.
+3. Overwrite trip_final.md with approved plan.
+4. Append new preferences/feedback to preferences.md.
 
-## CLI Prompts (Lead Agent asks user)
+CLI Prompts (Lead Agent asks user)
 
 Initial:
 - Departure city?
@@ -71,9 +70,8 @@ Review:
 - What would you like to change? (dates, hotels, activities, budget)
 - Approve this plan? (yes/no)
 
-## Output Format (trip_final.md)
+Output Format (trip_final.md)
 
-```markdown
 # Trip Plan: [Destination]
 
 ## Travelers
@@ -106,16 +104,15 @@ Review:
 - Activities: $[X]
 - Buffer (10%): $[X]
 - **Total: $[X]**
-```
 
-## Writing Style
+Writing Style
 - Concise, practical
 - Clear cost breakdowns
 - Platform names without URLs (e.g., "Book on Expedia")
 - Present options at different price points
 - Note assumptions and uncertainties
 
-## Stop Conditions
-- User approves final plan and `trip_final.md` created
+Stop Conditions
+- User approves final plan and trip_final.md created
 - User cancels session
 - Search fails for critical components (flights/hotels unavailable)
