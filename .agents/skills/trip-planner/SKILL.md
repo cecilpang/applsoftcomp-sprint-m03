@@ -22,7 +22,12 @@ Lead Agent (trip coordinator)
 7. Spawn Search Agent for activities/attractions. Wait. Mark done in progress.txt.
 8. Spawn Planning Agent to create draft itinerary. Wait. Mark done in progress.txt.
 9. Present trip_draft.md to user; collect feedback. Log prompt/response to requirements.txt, summary to progress.txt.
-10. If revisions needed: update requirements, increment loop count in progress.txt, loop back to step 8.
+10. If revisions needed: analyze feedback type.
+    - If dates/route changed: re-run flight/hotel search (steps 5-7).
+    - If only hotel preference changed: re-run hotel search (step 6).
+    - If only activity preference changed: re-run activity search (step 7).
+    - If only itinerary structure changed: re-run planning (step 8).
+    - Update requirements, increment loop count in progress.txt, loop to appropriate step.
 11. If approved: finalize trip_final.md, append feedback to preferences.md, mark finalized in progress.txt and requirements.txt. Stop.
 
 Sub-Agents (spawned via Task tool, general/mode: subagent)
