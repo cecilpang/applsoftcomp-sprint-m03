@@ -1,24 +1,27 @@
 # User Preferences (Accumulated)
 
 ## Flight Preferences
-Seat class: Economy
-Airline preferences: British Airways (nonstop preferred)
-Layover tolerance: No preference for nonstop
+- Seat class: Premium economy (Stated by user)
+- Airline preferences: Cathay Pacific (Stated by user)
+- Layover tolerance: Direct flights preferred
 
 ## Hotel Preferences
-Star rating: 3-4 star
-Amenities: Restaurant, Bar
-Location preference: Central (Victoria/Covent Garden area)
+- Star rating: N/A (staying with friends)
+- Amenities: N/A
+- Location preference: N/A
 
 ## Activity Preferences
-Interests: Food & Dining (cooking classes, food tours)
-Pace (relaxed/active): Balanced
-Food preferences: Local cuisine, market experiences
+- Interests: Food tours, spa experiences (Stated by user)
+- Pace (relaxed/active): Relaxed
+- Food preferences: Local Hong Kong cuisine, dim sum, street food
 
 ## Budget Preferences
-Typical budget range: $2,000-4,000 per person
-Splurge priorities: Premium flights (nonstop), central location
+- Typical budget range: Mid-range $3,000 - $6,000 (Stated by user)
+- Splurge priorities: Premium economy flights, spa experiences
 
 ## Past Feedback
-- Session 4 (April 2026): London trip - Approved. Preferred British Airways nonstop flights, liked central hotel location near Victoria/ Covent Garden. Food & Dining focus with cooking class was a hit. Would consider premium hotel for next trip.
-Append feedback from each completed trip session
+### Trip 20260409-1400 (Hong Kong, June 1-8, 2026)
+- No hotel needed - staying at friend's home
+- Premium economy flight preferred
+- Focus on food tours and spa experiences
+- Mid-range budget
