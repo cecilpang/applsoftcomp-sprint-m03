@@ -1,0 +1,36 @@
+Trip Requirements Log
+====================
+Session ID: 
+Session Started: YYYY-MM-DD HH:MM
+Last Updated: YYYY-MM-DD HH:MM
+
+Q: What is your departure city?
+A: 
+
+Q: Where do you want to go?
+A: 
+
+Q: When do you want to travel? (Departure and return dates)
+A: 
+
+Q: How many travelers? (Adults and children)
+A: 
+
+Q: What is your budget range?
+A: 
+
+Q: What are your interests? (Select all that apply)
+A: 
+
+Q: What are your luggage requirements? (check-in bags and carry-on with custom option)
+A: 
+
+Past Preferences:
+Q: Apply past preferences to this trip?
+A: 
+
+## Feedback Round 1
+User comments: 
+
+## Feedback Round 2
+User comments: 

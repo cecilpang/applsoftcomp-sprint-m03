@@ -1,0 +1,16 @@
+Session ID: 
+Session Started: YYYY-MM-DD HH:MM
+Last Updated: YYYY-MM-DD HH:MM
+
+- [ ] Past Preferences Applied
+- [ ] Requirements Collection
+- [ ] Flight Search
+- [ ] Hotel Search
+- [ ] Activities Search
+- [ ] Planning
+- [ ] User Review
+- [ ] Finalization
+
+Draft created: YYYY-MM-DD HH:MM
+Revisions: 0
+Finalized: YYYY-MM-DD HH:MM 

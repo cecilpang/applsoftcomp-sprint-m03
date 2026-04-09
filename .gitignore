@@ -17,7 +17,6 @@ supp.pdf
 # Data files
 *.csv
 *.tsv
-*.txt
 
 # Office files
 *.docx
