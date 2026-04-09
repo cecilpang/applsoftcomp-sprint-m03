@@ -1,0 +1,37 @@
+{
+  "flight_sources": [
+    {"name": "Google Flights", "url": "https://www.google.com/travel/flights", "fallback": false},
+    {"name": "Kayak", "url": "https://www.kayak.com/flights", "fallback": false},
+    {"name": "Expedia", "url": "https://www.expedia.com/flights", "fallback": true},
+    {"name": "Skyscanner", "url": "https://www.skyscanner.com/transport/flights", "fallback": true}
+  ],
+  "hotel_sources": [
+    {"name": "Booking.com", "url": "https://www.booking.com", "fallback": false},
+    {"name": "Expedia", "url": "https://www.expedia.com", "fallback": false},
+    {"name": "Hotels.com", "url": "https://www.hotels.com", "fallback": true},
+    {"name": "Agoda", "url": "https://www.agoda.com", "fallback": true}
+  ],
+  "activity_sources": [
+    {"name": "Viator", "url": "https://www.viator.com", "fallback": false},
+    {"name": "GetYourGuide", "url": "https://www.getyourguide.com", "fallback": false},
+    {"name": "Klook", "url": "https://www.klook.com", "fallback": true},
+    {"name": "TripAdvisor", "url": "https://www.tripadvisor.com", "fallback": true}
+  ],
+  "flight_multipliers": {
+    "budget": 0.7,
+    "mid_range": 1.0,
+    "premium": 1.5
+  },
+  "hotel_multipliers": {
+    "budget": 0.5,
+    "mid_range": 1.0,
+    "premium": 2.0
+  },
+  "mid_range_hotel_price": 200,
+  "daily_food_transport": 50,
+  "buffer_percentage": 10,
+  "search_retry_limit": 3,
+  "webfetch_timeout": 120,
+  "rate_limit_delay": 30,
+  "max_revisions": 5
+}
