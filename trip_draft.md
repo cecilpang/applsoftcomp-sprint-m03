@@ -1,174 +1,99 @@
-# Trip Plan Draft: Rome, Italy
+# Trip Plan Draft: London, UK
 
 ## Trip Details
 - Departure: New York (JFK)
-- Destination: Rome, Italy (FCO)
-- Dates: October 24-31, 2026 (7 nights)
+- Destination: London, UK
+- Dates: September 10-15, 2026 (5 nights)
 - Group: 2 adults
 - Budget: $2,000-4,000 per person ($4,000-8,000 total)
-- Interests: Sightseeing, Food & Dining, City Life
 
----
+## Flights
 
-## Recommended Bookings
+### Recommended: British Airways BA178 (Premium - Nonstop)
+- Outbound: September 10, 2026 - 7:50 AM JFK → 7:45 PM LHR (6h 55m)
+- Return: September 15, 2026 - 9:00 AM LHR → 12:15 PM JFK (7h 15m)
+- Price: $750 per person × 2 = $1,500 total
+- Book on: British Airways website
 
-### ✈️ Flights (Mid-Range Option - Recommended)
-- **Airline:** Delta Air Lines
-- **Flight Outbound:** DL246 (JFK → FCO), ~6:00 PM - ~8:00 AM+1
-- **Flight Return:** DL247 (FCO → JFK), ~9:00 AM - ~1:00 PM
-- **Duration:** ~8-9h each way (nonstop)
-- **Price:** ~$525 USD per person (round trip)
-- **Total for 2:** ~$1,050 USD
-- **Booking:** Book via delta.com or Skyscanner
-- **Seat Preference:** Window seat (request at booking)
+### Alternative Options
+- Budget: Norse Atlantic UK ZY501 - $390/person ($780 total) - 7h 30m nonstop, overnight
+- Mid-range: TAP Air Portugal TP201 - $550/person ($1,100 total) - 18h 55m with Lisbon stop
 
-### 🏨 Hotel (Mid-Range Option - Recommended)
-- **Name:** Hotel Artemide
-- **Location:** Via Nazionale 22, Central Station area
-- **Rating:** 9.3/10 Wonderful - 4-star
-- **Amenities:** Free minibar, Free Wi-Fi, Artemis Spa (sauna, hot tub, Turkish bath), restaurant, rooftop terrace, lavish breakfast
-- **Price:** ~$400 USD/night
-- **Total for 7 nights:** ~$2,800 USD
-- **Booking:** Book via booking.com or hotel website
+## Hotels
 
----
+### Recommended: Premier Inn London Victoria (Mid-Range)
+- Location: 82-83 Buckingham Palace Road, Victoria
+- Price: $125/night × 5 nights = $625 total
+- Amenities: Free WiFi, Restaurant, Bar
+- Book on: Premier Inn website
 
-## Day-by-Day Itinerary
+### Alternative Options
+- Budget: Travelodge London City - $65/night ($325 total) - City of London
+- Premium: Pestana Chelsea Bridge Hotel & Spa - $180/night ($900 total) - Chelsea with spa
 
-### 🗓️ Day 1: Saturday, October 24 - Arrival in Rome
-| Time | Activity | Cost |
-|------|----------|------|
-| Evening | Arrive at FCO (~8:00 AM) | - |
-| Morning | Transfer to Hotel Artemide via train + taxi | ~$30 for 2 |
-| Morning | Check-in, freshen up | - |
-| Late Morning | Walk to Via Nazionale, explore | Free |
-| Afternoon | Lunch near hotel (pasta, pizza) | ~$25 |
-| Evening | Explore area, dinner | ~$40 |
+## Activities
 
-**Day 1 Total Estimate:** ~$95
+### Recommended Food Experiences
+1. Best of Borough Market Cooking Class - $135 - 4.5 hours - Day 2
+2. London Bridge & Borough Market Food Tour - $135 - 3 hours - Day 3
+3. Traditional English Scone Making & Tea - $49 - 1 hour - Day 4
 
----
+Total Activities Cost: $319 per person × 2 = $638
 
-### 🗓️ Day 2: Sunday, October 25 - Colosseum & Roman Forum
-| Time | Activity | Cost |
-|------|----------|------|
-| Morning | Breakfast at hotel | ~$15 |
-| Morning | Colosseum Tour (skip-the-line) | $50/person = $100 |
-| Afternoon | Roman Forum & Palatine Hill | Included in tour |
-| Evening | Dinner near Piazza Venezia | ~$50 |
-| Night | Walk to Trevi Fountain (lit up) | Free |
+### Notable Restaurants (Optional Splurge)
+- Restaurant Gordon Ramsay - ~$250+ per person
+- Core by Clare Smyth - ~$200+ per person
+- Akoko (West African) - ~$130 per person
 
-**Day 2 Total Estimate:** ~$165
+## Itinerary
 
----
+### Day 1: Thursday, September 10 - Arrival
+- Morning: Depart JFK 7:50 AM
+- Evening: Arrive LHR 7:45 PM, transfer to hotel
+- Dinner: Victoria area (on own)
+- Overnight: Premier Inn London Victoria
 
-### 🗓️ Day 3: Monday, October 26 - Vatican Museums
-| Time | Activity | Cost |
-|------|----------|------|
-| Morning | Travel to Vatican (metro) | ~$5 |
-| Morning | Vatican Museums & Sistine Chapel | $40/person = $80 |
-| Afternoon | St. Peter's Basilica | Free |
-| Evening | Dinner in Prati neighborhood | ~$50 |
-| Night | Optional: Castel Sant'Angelo view | Free |
+### Day 2: Friday, September 11 - Food Market Day
+- Morning: Free time - explore Buckingham Palace area
+- Afternoon: Best of Borough Market Cooking Class (4.5 hours, $135)
+- Evening: Enjoy your prepared dinner + explore Borough Market
 
-**Day 3 Total Estimate:** ~$150
+### Day 3: Saturday, September 12 - Historic London
+- Morning: Tower of London & Tower Bridge
+- Afternoon: London Bridge & Borough Market Food Tour (3 hours, $135)
+- Evening: Southbank dinner
 
----
+### Day 4: Sunday, September 13 - Cultural Day
+- Morning: British Museum
+- Afternoon: Traditional English Scone Making & Tea Workshop (1 hour, $49)
+- Evening: Covent Garden/West End
 
-### 🗓️ Day 4: Tuesday, October 27 - Trastevere Food Tour
-| Time | Activity | Cost |
-|------|----------|------|
-| Morning | Free morning - sleep in | - |
-| Late Morning | Brunch near hotel | ~$20 |
-| Afternoon | Trastevere Food Tour (3 hours) | $85/person = $170 |
-| Evening | Explore Trastevere streets | Free |
-| Night | Dinner at local trattoria | ~$50 |
+### Day 5: Monday, September 14 - Final Day
+- Morning: Shopping on Oxford Street or Notting Hill
+- Afternoon: Free time
+- Evening: Farewell dinner
 
-**Day 4 Total Estimate:** ~$270
+### Day 6: Tuesday, September 15 - Departure
+- Morning: Check out, transfer to LHR
+- Afternoon: Depart LHR 9:00 AM → Arrive JFK 12:15 PM
 
----
+## Cost Summary
 
-### 🗓️ Day 5: Wednesday, October 28 - Pantheon & Shopping
-| Time | Activity | Cost |
-|------|----------|------|
-| Morning | Visit Pantheon | Free |
-| Morning | Piazza Navona, Campo de' Fiori | Free |
-| Afternoon | Lunch at Campo de' Fiori market | ~$20 |
-| Afternoon | Shopping (Via del Corso, Via Condotti) | ~$30 |
-| Evening | Rooftop Aperitivo | ~$30 |
-| Dinner | Near Spanish Steps | ~$50 |
+| Category | Cost |
+|----------|------|
+| Flights (BA) | $1,500 |
+| Hotels (Premier Inn) | $625 |
+| Activities | $638 |
+| Food (estimated) | $300 |
+| Local transport | $100 |
+| **Subtotal** | **$3,163** |
+| Buffer (10%) | $316 |
+| **TOTAL** | **$3,479** |
 
-**Day 5 Total Estimate:** ~$130
+Per person: $1,740
 
----
-
-### 🗓️ Day 6: Thursday, October 29 - Appian Way & Cooking Class
-| Time | Activity | Cost |
-|------|----------|------|
-| Morning | Explore Appian Way (bike rental) | ~$20 |
-| Afternoon | Pasta & Tiramisu Cooking Class | $95/person = $190 |
-| Evening | Final dinner - fine dining | ~$80 |
-| Night | Last evening stroll | Free |
-
-**Day 6 Total Estimate:** ~$310
-
----
-
-### 🗓️ Day 7: Friday, October 30 - Last Day & Departure Prep
-| Time | Activity | Cost |
-|------|----------|------|
-| Morning | Check-out, store luggage | - |
-| Morning | Final shopping, souvenirs | ~$40 |
-| Afternoon | Lunch near Termini | ~$25 |
-| Afternoon | Transfer to FCO | ~$30 for 2 |
-| Evening | Departure: DL247 at 9:00 AM from FCO | - |
-
-**Day 7 Total Estimate:** ~$95
-
----
-
-## Total Cost Breakdown
-
-| Category | Item | Cost (USD) |
-|----------|------|------------|
-| **Flights** | Delta RT x 2 | $1,050 |
-| **Hotel** | Hotel Artemide (7 nights) | $2,800 |
-| **Activities** | | |
-| | Colosseum Tour | $100 |
-| | Vatican Museums | $80 |
-| | Trastevere Food Tour | $170 |
-| | Cooking Class | $190 |
-| **Transit** | Airport transfers + daily Metro | ~$100 |
-| **Food** | Additional meals, snacks, drinks | ~$400 |
-| **Contingency** | Extra buffer | ~$200 |
-| **GRAND TOTAL** | | **$5,090** |
-
-**Notes:**
-- Total $5,090 is within mid-range budget ($4,000-8,000)
-- October weather: Pleasant 15-22°C, fewer crowds
-- Activity costs are approximate and may vary
-- Book Vatican and Colosseum tickets 2-3 weeks ahead
-
----
-
-## Activities Summary (Booked)
-| Day | Activity | Booking Method |
-|-----|----------|----------------|
-| Day 2 | Colosseum Tour | Viator / GetYourGuide |
-| Day 3 | Vatican Museums | Official or Viator |
-| Day 4 | Trastevere Food Tour | Eating Italy Food Tours / Viator |
-| Day 6 | Pasta & Tiramisu Cooking Class | Viator / Cooking Classes Rome |
-
----
-
-## 💡 Tips & Reminders
-- Book Vatican and Colosseum tickets 2-3 weeks ahead
-- Get a Roma Pass for transit and museum discounts
-- Carry cash - many small restaurants don't accept cards
-- October = harvest season - try wine and truffle dishes
-- Hotel Artemide spa - book in advance
-
----
-
-## Pending User Review
-Feedback and revision requests go here
+## Notes
+- September is shoulder season - better prices than June
+- Activities can be adjusted based on preference
+- Recommend travel insurance
+- Currency: British Pound (~$1.30 USD)
